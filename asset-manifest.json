@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/list-of-hotels/static/css/main.ee5339c8.css",
+    "main.js": "/list-of-hotels/static/js/main.98a3b529.js",
+    "index.html": "/list-of-hotels/index.html",
+    "main.ee5339c8.css.map": "/list-of-hotels/static/css/main.ee5339c8.css.map",
+    "main.98a3b529.js.map": "/list-of-hotels/static/js/main.98a3b529.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee5339c8.css",
+    "static/js/main.98a3b529.js"
+  ]
+}
