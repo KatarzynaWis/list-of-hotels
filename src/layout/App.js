@@ -1,9 +1,12 @@
-import './App.scss';
+import PageHeader from "../components/Header/PageHeader";
+import HotelsList from "../components/HotelsList/HotelsList";
+import "./App.scss";
 
 function App() {
   return (
     <div className="App">
-     test
+      <PageHeader />
+      <HotelsList />
     </div>
   );
 }
