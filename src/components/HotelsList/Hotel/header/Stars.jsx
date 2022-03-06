@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import renderStars from "../../../../helpers/renderStars";
 
-const Stars = () => {
-  return (
-    <div>Stars</div>
-  )
-}
+const Stars = ({ stars }) => {
+  return <div>{renderStars(stars)}</div>;
+};
 
-export default Stars
+export default Stars;

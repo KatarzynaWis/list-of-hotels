@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const HotelName = () => {
-  return (
-    <div>HotelName</div>
-  )
-}
+const HotelName = ({ name }) => {
+  return <h2>{name}</h2>;
+};
 
-export default HotelName
+export default HotelName;

@@ -1,12 +1,14 @@
 import HeaderHotel from "./HeaderHotel";
 import RoomsList from "./RoomsList";
 
-
-const Hotel = () => {
+const Hotel = ({ hotelData, roomsData }) => {
   return (
-    <li className="hotels-list__hotel">
-      <HeaderHotel />
-      <RoomsList />
+    <li
+      id={hotelData.id}
+      className="hotels-list__hotel"
+      value={hotelData.starRating}>
+      <HeaderHotel hotelData={hotelData} />
+      <RoomsList roomsData={roomsData} />
     </li>
   );
 };

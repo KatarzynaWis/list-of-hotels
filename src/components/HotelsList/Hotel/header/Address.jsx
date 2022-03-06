@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
-const Address = () => {
+const Address = ({ address1, address2 }) => {
   return (
-    <div>Address</div>
-  )
-}
+    <>
+      <p>{address1}</p>
+      <p>{address2}</p>
+    </>
+  );
+};
 
-export default Address
+export default Address;
